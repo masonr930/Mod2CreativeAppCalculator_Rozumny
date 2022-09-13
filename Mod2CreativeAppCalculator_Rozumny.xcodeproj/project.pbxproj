@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AB9028628D0AB4B00DC32D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9028528D0AB4B00DC32D7 /* AppDelegate.swift */; };
+		4AB9028828D0AB4B00DC32D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9028728D0AB4B00DC32D7 /* SceneDelegate.swift */; };
+		4AB9028A28D0AB4B00DC32D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9028928D0AB4B00DC32D7 /* ViewController.swift */; };
+		4AB9028D28D0AB4B00DC32D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB9028B28D0AB4B00DC32D7 /* Main.storyboard */; };
+		4AB9028F28D0AB4C00DC32D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB9028E28D0AB4C00DC32D7 /* Assets.xcassets */; };
+		4AB9029228D0AB4C00DC32D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB9029028D0AB4C00DC32D7 /* LaunchScreen.storyboard */; };
+		4AB9029D28D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9029C28D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyTests.swift */; };
+		4AB902A728D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB902A628D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITests.swift */; };
+		4AB902A928D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB902A828D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AB9029928D0AB4C00DC32D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AB9027A28D0AB4B00DC32D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB9028128D0AB4B00DC32D7;
+			remoteInfo = Mod2CreativeAppCalculator_Rozumny;
+		};
+		4AB902A328D0AB4C00DC32D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AB9027A28D0AB4B00DC32D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB9028128D0AB4B00DC32D7;
+			remoteInfo = Mod2CreativeAppCalculator_Rozumny;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AB9028228D0AB4B00DC32D7 /* Mod2CreativeAppCalculator_Rozumny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mod2CreativeAppCalculator_Rozumny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB9028528D0AB4B00DC32D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AB9028728D0AB4B00DC32D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4AB9028928D0AB4B00DC32D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AB9028C28D0AB4B00DC32D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AB9028E28D0AB4C00DC32D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AB9029128D0AB4C00DC32D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AB9029328D0AB4C00DC32D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB9029828D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mod2CreativeAppCalculator_RozumnyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB9029C28D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mod2CreativeAppCalculator_RozumnyTests.swift; sourceTree = "<group>"; };
+		4AB902A228D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mod2CreativeAppCalculator_RozumnyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB902A628D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mod2CreativeAppCalculator_RozumnyUITests.swift; sourceTree = "<group>"; };
+		4AB902A828D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mod2CreativeAppCalculator_RozumnyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AB9027F28D0AB4B00DC32D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB9029528D0AB4C00DC32D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB9029F28D0AB4C00DC32D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AB9027928D0AB4B00DC32D7 = {
+			isa = PBXGroup;
+			children = (
+				4AB9028428D0AB4B00DC32D7 /* Mod2CreativeAppCalculator_Rozumny */,
+				4AB9029B28D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyTests */,
+				4AB902A528D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITests */,
+				4AB9028328D0AB4B00DC32D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AB9028328D0AB4B00DC32D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB9028228D0AB4B00DC32D7 /* Mod2CreativeAppCalculator_Rozumny.app */,
+				4AB9029828D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyTests.xctest */,
+				4AB902A228D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AB9028428D0AB4B00DC32D7 /* Mod2CreativeAppCalculator_Rozumny */ = {
+			isa = PBXGroup;
+			children = (
+				4AB9028528D0AB4B00DC32D7 /* AppDelegate.swift */,
+				4AB9028728D0AB4B00DC32D7 /* SceneDelegate.swift */,
+				4AB9028928D0AB4B00DC32D7 /* ViewController.swift */,
+				4AB9028B28D0AB4B00DC32D7 /* Main.storyboard */,
+				4AB9028E28D0AB4C00DC32D7 /* Assets.xcassets */,
+				4AB9029028D0AB4C00DC32D7 /* LaunchScreen.storyboard */,
+				4AB9029328D0AB4C00DC32D7 /* Info.plist */,
+			);
+			path = Mod2CreativeAppCalculator_Rozumny;
+			sourceTree = "<group>";
+		};
+		4AB9029B28D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AB9029C28D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyTests.swift */,
+			);
+			path = Mod2CreativeAppCalculator_RozumnyTests;
+			sourceTree = "<group>";
+		};
+		4AB902A528D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AB902A628D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITests.swift */,
+				4AB902A828D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITestsLaunchTests.swift */,
+			);
+			path = Mod2CreativeAppCalculator_RozumnyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AB9028128D0AB4B00DC32D7 /* Mod2CreativeAppCalculator_Rozumny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB902AC28D0AB4C00DC32D7 /* Build configuration list for PBXNativeTarget "Mod2CreativeAppCalculator_Rozumny" */;
+			buildPhases = (
+				4AB9027E28D0AB4B00DC32D7 /* Sources */,
+				4AB9027F28D0AB4B00DC32D7 /* Frameworks */,
+				4AB9028028D0AB4B00DC32D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mod2CreativeAppCalculator_Rozumny;
+			productName = Mod2CreativeAppCalculator_Rozumny;
+			productReference = 4AB9028228D0AB4B00DC32D7 /* Mod2CreativeAppCalculator_Rozumny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AB9029728D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB902AF28D0AB4C00DC32D7 /* Build configuration list for PBXNativeTarget "Mod2CreativeAppCalculator_RozumnyTests" */;
+			buildPhases = (
+				4AB9029428D0AB4C00DC32D7 /* Sources */,
+				4AB9029528D0AB4C00DC32D7 /* Frameworks */,
+				4AB9029628D0AB4C00DC32D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AB9029A28D0AB4C00DC32D7 /* PBXTargetDependency */,
+			);
+			name = Mod2CreativeAppCalculator_RozumnyTests;
+			productName = Mod2CreativeAppCalculator_RozumnyTests;
+			productReference = 4AB9029828D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AB902A128D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB902B228D0AB4C00DC32D7 /* Build configuration list for PBXNativeTarget "Mod2CreativeAppCalculator_RozumnyUITests" */;
+			buildPhases = (
+				4AB9029E28D0AB4C00DC32D7 /* Sources */,
+				4AB9029F28D0AB4C00DC32D7 /* Frameworks */,
+				4AB902A028D0AB4C00DC32D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AB902A428D0AB4C00DC32D7 /* PBXTargetDependency */,
+			);
+			name = Mod2CreativeAppCalculator_RozumnyUITests;
+			productName = Mod2CreativeAppCalculator_RozumnyUITests;
+			productReference = 4AB902A228D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AB9027A28D0AB4B00DC32D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4AB9028128D0AB4B00DC32D7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					4AB9029728D0AB4C00DC32D7 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4AB9028128D0AB4B00DC32D7;
+					};
+					4AB902A128D0AB4C00DC32D7 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4AB9028128D0AB4B00DC32D7;
+					};
+				};
+			};
+			buildConfigurationList = 4AB9027D28D0AB4B00DC32D7 /* Build configuration list for PBXProject "Mod2CreativeAppCalculator_Rozumny" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AB9027928D0AB4B00DC32D7;
+			productRefGroup = 4AB9028328D0AB4B00DC32D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AB9028128D0AB4B00DC32D7 /* Mod2CreativeAppCalculator_Rozumny */,
+				4AB9029728D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyTests */,
+				4AB902A128D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB9028028D0AB4B00DC32D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB9029228D0AB4C00DC32D7 /* LaunchScreen.storyboard in Resources */,
+				4AB9028F28D0AB4C00DC32D7 /* Assets.xcassets in Resources */,
+				4AB9028D28D0AB4B00DC32D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB9029628D0AB4C00DC32D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB902A028D0AB4C00DC32D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB9027E28D0AB4B00DC32D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB9028A28D0AB4B00DC32D7 /* ViewController.swift in Sources */,
+				4AB9028628D0AB4B00DC32D7 /* AppDelegate.swift in Sources */,
+				4AB9028828D0AB4B00DC32D7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB9029428D0AB4C00DC32D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB9029D28D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB9029E28D0AB4C00DC32D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB902A928D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITestsLaunchTests.swift in Sources */,
+				4AB902A728D0AB4C00DC32D7 /* Mod2CreativeAppCalculator_RozumnyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AB9029A28D0AB4C00DC32D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AB9028128D0AB4B00DC32D7 /* Mod2CreativeAppCalculator_Rozumny */;
+			targetProxy = 4AB9029928D0AB4C00DC32D7 /* PBXContainerItemProxy */;
+		};
+		4AB902A428D0AB4C00DC32D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AB9028128D0AB4B00DC32D7 /* Mod2CreativeAppCalculator_Rozumny */;
+			targetProxy = 4AB902A328D0AB4C00DC32D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AB9028B28D0AB4B00DC32D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB9028C28D0AB4B00DC32D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AB9029028D0AB4C00DC32D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB9029128D0AB4C00DC32D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AB902AA28D0AB4C00DC32D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AB902AB28D0AB4C00DC32D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AB902AD28D0AB4C00DC32D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G937682Z6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mod2CreativeAppCalculator_Rozumny/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod2CreativeAppCalculator-Rozumny";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AB902AE28D0AB4C00DC32D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G937682Z6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mod2CreativeAppCalculator_Rozumny/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod2CreativeAppCalculator-Rozumny";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AB902B028D0AB4C00DC32D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G937682Z6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod2CreativeAppCalculator-RozumnyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mod2CreativeAppCalculator_Rozumny.app/Mod2CreativeAppCalculator_Rozumny";
+			};
+			name = Debug;
+		};
+		4AB902B128D0AB4C00DC32D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G937682Z6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod2CreativeAppCalculator-RozumnyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mod2CreativeAppCalculator_Rozumny.app/Mod2CreativeAppCalculator_Rozumny";
+			};
+			name = Release;
+		};
+		4AB902B328D0AB4C00DC32D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G937682Z6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod2CreativeAppCalculator-RozumnyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mod2CreativeAppCalculator_Rozumny;
+			};
+			name = Debug;
+		};
+		4AB902B428D0AB4C00DC32D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G937682Z6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod2CreativeAppCalculator-RozumnyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mod2CreativeAppCalculator_Rozumny;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AB9027D28D0AB4B00DC32D7 /* Build configuration list for PBXProject "Mod2CreativeAppCalculator_Rozumny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB902AA28D0AB4C00DC32D7 /* Debug */,
+				4AB902AB28D0AB4C00DC32D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB902AC28D0AB4C00DC32D7 /* Build configuration list for PBXNativeTarget "Mod2CreativeAppCalculator_Rozumny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB902AD28D0AB4C00DC32D7 /* Debug */,
+				4AB902AE28D0AB4C00DC32D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB902AF28D0AB4C00DC32D7 /* Build configuration list for PBXNativeTarget "Mod2CreativeAppCalculator_RozumnyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB902B028D0AB4C00DC32D7 /* Debug */,
+				4AB902B128D0AB4C00DC32D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB902B228D0AB4C00DC32D7 /* Build configuration list for PBXNativeTarget "Mod2CreativeAppCalculator_RozumnyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB902B328D0AB4C00DC32D7 /* Debug */,
+				4AB902B428D0AB4C00DC32D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AB9027A28D0AB4B00DC32D7 /* Project object */;
+}
